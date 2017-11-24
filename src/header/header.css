@@ -1,0 +1,10 @@
+@import "../search/search-input.css";
+@import "../search/ordering.css";
+@import "../search/filtering.css";
+
+.header{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

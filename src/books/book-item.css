@@ -1,0 +1,84 @@
+
+@import "book-footer.css";
+
+.items {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-top: -10px;
+}
+
+.item {
+
+    display: flex;
+    flex-direction: column;
+
+    background: white;
+    color: #999;
+    padding: 10px 10px 10px 20px;
+    margin-left: 40px;
+    margin-top: 40px;
+    width: 430px;
+    max-width: 430px;
+    height: 220px;;
+    /*border*/
+    /*border-image-outset: 0px;*/
+    /*border-image-repeat: stretch;*/
+    /*border-image-slice: 100%;*/
+    /*border-image-source: none;*/
+    /*border-image-width: 1;*/
+    /*border-radius: 3px;*/
+    /*border: 1px solid rgba(0, 0, 0, 0.0901961);*/
+    /*shaddow*/
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.12);
+}
+
+.item .cover-image {
+    width: 132px;
+    height: 187px;
+    position: relative;
+    top: -25px;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.12);
+}
+
+.item .brief {
+    padding: 10px 10px 10px 30px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: flex-start;
+
+}
+
+.title {
+    color: #5d5d5d;
+    flex: 1;
+    flex-grow: 0;
+    text-align: left;
+    padding-bottom: 10px;
+    font-size: large;
+}
+
+.gene {
+    flex: 1;
+    flex-grow: 0;
+    text-align: left;
+    /*padding-bottom: 10px;*/
+    font-size: 15px;
+
+}
+
+.description {
+    text-align: left;
+    font-size: 14px;
+    height: 80px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.rating-number{
+    margin-top: 9px;
+    font-size: small;
+}

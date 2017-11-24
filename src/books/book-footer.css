@@ -1,0 +1,40 @@
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 11px;
+    margin-top: 17px;
+}
+
+.fav {
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-image: url(../hearts.png);
+    height: 15px;
+    padding-left: 15px;
+    margin-left: 10px;
+}
+
+.fav.active {
+    background-position: 0 -16px;
+}
+
+.fav.selected {
+    background-position: 0 -33px;
+}
+
+.comments {
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-image: url(../comments.png);
+    height: 15px;
+    padding-left: 15px;
+    margin-left: 10px;
+}
+
+.line {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ddd;
+}

@@ -1,0 +1,34 @@
+@import "raiting/raiting.css";
+@import "search/search-input.css";
+@import "books/book-item.css";
+@import "header/header.css";
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: #999;
+    background-color: rgb(238, 243, 247);
+}
+
+.content{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+@media (min-width: 620px) {
+}
+@media (min-width: 830px) {
+}
+@media (min-width: 1040px) {
+}
+@media (min-width: 1250px) {
+}
+@media (min-width: 1460px) {
+
+}
+@media (min-width: 1670px) {
+}
