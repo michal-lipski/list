@@ -3,11 +3,28 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
-import {createStore} from "redux";
+import {combineReducers, createStore} from "redux";
 import {Provider} from "react-redux";
 import {reducers} from "./reducers";
+import {BrowserRouter as Router, Route} from 'react-router-dom'
+import {createBrowserHistory} from 'history'
+import Details from "./books/details/Details";
+import {routerReducer, syncHistoryWithStore} from 'react-router-redux'
+
+const store = createStore(combineReducers({
+    ...reducers,
+    routing:routerReducer
+}), window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
+// const history = syncHistoryWithStore(createBrowserHistory, store);
 
 
-const store = createStore(reducers,window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
-ReactDOM.render(<Provider store={store}><App/></Provider>, document.getElementById('root'));
+
+ReactDOM.render(
+    <Provider store={store}>
+        <Router>
+            <Route path="/" component={App}/>
+        </Router>
+    </Provider>,
+    document.getElementById('root')
+);
 registerServiceWorker();

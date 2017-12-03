@@ -3,6 +3,13 @@ export const fetchBooksSuccess = (books) => ({
     books
 });
 
-export const fetchBooks = () => ({
+export const fetchBooks = (page) => ({
     type: 'FETCH_BOOKS',
+    page
+});
+
+
+export const orderChanged = (order) => ({
+    type: 'ORDER_CHANGED',
+    order
 });

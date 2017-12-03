@@ -9,7 +9,7 @@
 .fav {
     background-repeat: no-repeat;
     background-position: 0 0;
-    background-image: url(../hearts.png);
+    background-image: url(../../../../hearts.png);
     height: 15px;
     padding-left: 15px;
     margin-left: 10px;
@@ -26,7 +26,7 @@
 .comments {
     background-repeat: no-repeat;
     background-position: 0 0;
-    background-image: url(../comments.png);
+    background-image: url(../../../../comments.png);
     height: 15px;
     padding-left: 15px;
     margin-left: 10px;

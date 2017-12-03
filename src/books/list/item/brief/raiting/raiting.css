@@ -1,0 +1,49 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+.rating-number{
+    margin-left: 5px;
+    margin-top: 4px;
+    font-size: small;
+}
+
+.rating-votes {
+    margin-top: 4px;
+    font-size: small;
+    margin-left: 40px;
+    font-size: small;
+    white-space: nowrap;
+}
+
+.star-rating{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.rating .full:before {
+    margin: 5px;
+    font-size: 1.25em;
+    font-family: FontAwesome;
+    content: "\f005";
+}
+
+.star.half{
+    position: relative;
+    left: -24px;
+}
+
+.rating .half:before {
+    font-size: 1.25em;
+    font-family: FontAwesome;
+    content: "\f089";
+}
+
+.rating .selected  {
+    color: #FFD700;
+}
+
+.rating  {
+    color: #ddd;
+    float: right;
+}

@@ -1,6 +1,6 @@
-@import "raiting/raiting.css";
+@import "books/list/item/brief/raiting/raiting.css";
 @import "search/search-input.css";
-@import "books/book-item.css";
+@import "books/list/item/book-item.css";
 @import "header/header.css";
 
 body {

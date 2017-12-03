@@ -1,7 +1,6 @@
 import React from 'react';
-import {StarRaiting} from "../raiting/starRating";
 
-export function BookFooter({book}) {
+export function BookFooter() {
     return (
         <div className='footer'>
             <div className='listen'/>

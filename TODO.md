@@ -2,8 +2,15 @@
 * DONE layout elementów
 * DONE obrazek i tekst
 * oceny
-* lista elementów z reduxa
+* DONE lista elementów z reduxa
 * filtrowanie z reselect
-* infinite scroll
+* DONE infinite scroll
 * zmiana na najechanie
 * opis nie mieszczacy sie w ramce
+* DONE pokazanie opaski new
+* ocena z goodreads raz na sekunde
+
+* program resellerski
+* audioteka
+* empik go
+* story tell

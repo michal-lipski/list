@@ -1,6 +1,6 @@
 import React from 'react';
 import {render, shallow} from 'enzyme';
-import {BookList} from "./BooksList";
+import {BookList} from "../../BooksList";
 import {BookBrief} from "./BookBrief";
 
 it('displays title', () => {

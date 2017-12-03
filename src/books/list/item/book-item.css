@@ -1,5 +1,4 @@
-
-@import "book-footer.css";
+@import "footer/book-footer.css";
 
 .items {
     display: flex;
@@ -14,7 +13,7 @@
 
     display: flex;
     flex-direction: column;
-
+    position: relative;
     background: white;
     color: #999;
     padding: 10px 10px 10px 20px;
@@ -23,16 +22,15 @@
     width: 430px;
     max-width: 430px;
     height: 220px;;
-    /*border*/
-    /*border-image-outset: 0px;*/
-    /*border-image-repeat: stretch;*/
-    /*border-image-slice: 100%;*/
-    /*border-image-source: none;*/
-    /*border-image-width: 1;*/
-    /*border-radius: 3px;*/
-    /*border: 1px solid rgba(0, 0, 0, 0.0901961);*/
-    /*shaddow*/
     box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.12);
+}
+
+.item:hover .cover-image{
+
+}
+
+.item:hover{
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.15);
 }
 
 .item .cover-image {
@@ -41,6 +39,7 @@
     position: relative;
     top: -25px;
     box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.12);
+    transition: all .2s ease-in-out;
 }
 
 .item .brief {
@@ -78,7 +77,3 @@
     text-overflow: ellipsis;
 }
 
-.rating-number{
-    margin-top: 9px;
-    font-size: small;
-}
